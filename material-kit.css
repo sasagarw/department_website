@@ -994,6 +994,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  /*margin-top: auto;*/
 }
 
 @media (min-width: 576px) {
@@ -16045,7 +16046,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .page-header {
-  height: 100vh;
+  height: 80vh;
   background-position: center center;
   background-size: cover;
   margin: 0;

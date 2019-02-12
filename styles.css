@@ -4,9 +4,39 @@ h1{
 }
 .card{
 	display: flex;
-	justify-content: flex-start;
+	justify-content: left;
 	box-shadow: 2px 2px #888888;
 	transition: all 1s;
 }
 .card:hover{
 	transform: scale(1.056);
+}
+
+ol {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+div {
+	font-size:20px;
+}
+
+.card-body {
+	text-align:justify;
+}
+
+.card-title {
+	text-align:center;
+}
+
+h5.description {
+	text-align:justify;
+}
+
+p.description {
+	text-align:justify;
+}
+
+p {
+	font-size:20px;
+}
